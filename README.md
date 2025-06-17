@@ -1,4 +1,4 @@
-# Carbon-credit-tokenizer
+# Option Trading Strategy Backtester
 
 ## Phase 1: Simple Straddle Backtester
 
