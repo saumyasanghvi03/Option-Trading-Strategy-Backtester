@@ -1,0 +1,26 @@
+{
+  "strategy_name": "ATM Straddle",
+  "underlying": "NIFTY",
+  "lot_size": 50,
+  "entry_time": "09:20:00",
+  "exit_time": "15:00:00",
+  "strike_selection": {
+    "method": "ATM",
+    "step": 50
+  },
+  "legs": [
+    {
+      "instrument_type": "CE",
+      "action": "SELL",
+      "quantity_lots": 1,
+      "sl_pct": 25.0
+    },
+    {
+      "instrument_type": "PE",
+      "action": "SELL",
+      "quantity_lots": 1,
+      "sl_pct": 25.0
+    }
+  ],
+  "target_pnl_pct": 50.0
+}
